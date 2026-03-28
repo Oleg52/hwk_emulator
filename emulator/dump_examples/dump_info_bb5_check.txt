@@ -1,0 +1,2142 @@
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetModemStatus: 0x60E0
+
+FT_Write: 1
+61                                                                a
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+54                                                                T
+
+FT_Write: 1
+30                                                                0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+54                                                                T
+
+FT_GetModemStatus: 0x6060
+
+[EMU] FT_Write: 1
+32                                                                2
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+[EMU] FT_Read: 1
+A5                                                                .
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 6
+36 11 03 02  00 10                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 19
+
+FT_GetQueueStatus: 19
+
+[EMU] FT_Read: 19
+54 16 45 58  79 41 60 00  A5 00 00 00  00 00 00 00  00 A5 54      T.EXyA`...........T
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 7
+36 01 04 0B  80 08 80                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 81 03 02  08 80                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 131
+
+FT_GetQueueStatus: 131
+
+[EMU] FT_Read: 131
+54 1F 50 78  C2 AA 6A 12  41 C7 4F 96  7A 0E 6E 0B  E0 D7 70 18   T.Px..j.A.O.z.n...p.
+A3 17 43 44  FB FE 5E 5F  57 5E 9B 83  AB B9 C0 3D  F3 F7 47 2B   ..CD..^_W^.....=..G+
+E5 6E A9 3A  7A 06 D8 2E  8A 7E 94 1B  1A 92 2D 00  69 3F 5C 71   .n.:z....~....-.i?\q
+92 F5 D9 01  E7 5D 0C E7  B9 38 FE 88  9D 5B 9C 77  2C 8E 68 A2   .....]...8...[.w,.h.
+0F C1 6F 22  A5 FB 60 B9  F2 4B D1 B7  A1 3F 94 EE  AD 67 1D 3A   ..o"..`..K...?...g.:
+BD E8 74 2E  84 AC A3 54  C1 DA 4B CD  4E D7 F6 C9  1F 1E 9C D8   ..t....T..K.N.......
+DE 3C 65 2B  34 BA F2 91  CB A5 54                                .<e+4.....T
+
+[EMU] FT_Write: 7
+36 03 04 0B  65 34 01                                             6...e4.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A5 00 A5  54                                                   T...T
+
+[EMU] FT_Write: 6
+36 02 03 02  34 01                                                6...4.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+[EMU] FT_Read: 4
+54 6F A5 54                                                       To.T
+
+[EMU] FT_Write: 7
+36 01 04 0B  00 08 80                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 81 03 02  08 80                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 131
+
+FT_GetQueueStatus: 131
+
+[EMU] FT_Read: 131
+54 49 6E 69  74 5F 4F 6B  5F FF FF FF  FF FF FF FF  FF DA AC 7E   TInit_Ok_..........~
+7E FF 63 34  B4 63 4A 47  89 23 87 0E  CE 81 49 70  A8 B3 32 B6   ~.c4.cJG.#....Ip..2.
+3E FA 39 FE  48 5E 14 69  9F 3B CB A9  99 C3 69 74  D0 46 B6 35   >.9.H^.i.;....it.F.5
+92 63 1C B8  26 69 05 C3  06 A6 07 93  6B FD C4 AD  8E 2F 30 01   .c..&i......k..../0.
+98 0B 5B 24  AB 76 6F 3E  16 F8 64 44  74 2D 45 1F  92 4C 61 7A   ..[$.vo>..dDt-E..Laz
+79 46 6F 78  49 73 54 68  65 42 69 63  48 53 61 72  61 73 53 6F   yFoxIsTheBicHSarasSo
+66 74 28 63  29 32 30 30  35 A5 54                                ft(c)2005.T
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 4
+36 01 01 04                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 19 03 02  86 18                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 27
+
+FT_GetQueueStatus: 27
+
+[EMU] FT_Read: 27
+54 00 00 FF  FF FF FF FF  FF FF FF 00  00 00 55 00  00 00 00 B3   T.............U.....
+45 58 79 41  47 A5 54                                             EXyAG.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 23 6A 94  22 F6 00 A5  54                                      T#j."...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 35 7D B6  BD F8 00 A5  54                                      T5}.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 40 CD 09  5A FA 00 A5  54                                      T@..Z...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F6 AD 19  87 FC 00 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FA C6 F8  87 FE 00 A5  54                                      T.......T
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 16
+36 01 0D 03  A0 0A 7B 00  D4 28 9A CB  F1 98 8F A2                6.....{..(......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 4
+36 01 01 06                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 0D 03 02  A0 0C                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 15
+
+FT_GetQueueStatus: 15
+
+[EMU] FT_Read: 15
+54 7B 00 D4  28 9A CB F1  98 8F A2 F6  38 A5 54                   T{..(.......8.T
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 4
+36 01 01 05                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 0E 03 02  A0 0D                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 16
+
+FT_GetQueueStatus: 16
+
+[EMU] FT_Read: 16
+54 78 00 5F  D4 28 9A CB  F1 98 8F A2  13 69 A5 54                Tx._.(.......i.T
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 16
+36 01 0D 03  A0 0A 60 00  D4 28 9A CB  F1 98 8F A2                6.....`..(......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 4
+36 01 01 06                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 0D 03 02  A0 0C                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 15
+
+FT_GetQueueStatus: 15
+
+[EMU] FT_Read: 15
+54 60 00 D4  28 9A CB F1  98 8F A2 86  48 A5 54                   T`..(.......H.T
+
+[EMU] FT_Write: 4
+36 01 01 0A                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 3E 03 02  A0 3D                                                6>...=
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 64
+
+FT_GetQueueStatus: 64
+
+[EMU] FT_Read: 64
+54 60 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   T`..................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 FF  8D 03 86 45   ...................E
+4C DF 3D FA  6D 0C 5E BE  5C 46 BF 1A  3A 84 C7 2D  9C 05 4B 85   L.=.m.^.\F..:..-..K.
+AA AA A5 54                                                       ...T
+
+FT_Write: 1
+39                                                                9
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+78                                                                x
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3E                                                                >
+
+FT_GetDeviceInfo: Original SN: 79426 , Emulating: 78253
+
+FT_Write: 2
+42 00                                                             B.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+32                                                                2
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_Write: 2
+56 00                                                             V.
+
+FT_GetQueueStatus: 2
+
+FT_GetQueueStatus: 2
+
+FT_Read: 1
+3F                                                                ?
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3F                                                                ?
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 3
+71 12 07                                                          q..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+06 9B E5 AB                                                       ....
+
+FT_Write: 12
+6A 3A C9 73  40 ED 34 56  87 00 03 00                             j:.s@.4V....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+3D 9F 4D 4B                                                       =.MK
+
+FT_Write: 3
+71 12 A5                                                          q..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+06 9B E5 AB                                                       ....
+
+FT_Write: 12
+6A 3A C9 55  40 ED 34 56  87 00 03 00                             j:.U@.4V....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+0D 22 FC 18                                                       ."..
+
+FT_Write: 3
+71 12 E3                                                          q..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+06 9B E5 AB                                                       ....
+
+FT_Write: 12
+6A 3A C9 55  40 ED 34 56  87 00 03 00                             j:.U@.4V....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+36 2D 8D A2                                                       6-..
+
+FT_Write: 3
+71 0C 91                                                          q..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+06 9B E5 AB                                                       ....
+
+FT_Write: 12
+6A 3A C9 73  40 ED 34 56  87 00 03 00                             j:.s@.4V....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 4
+30 2C DB 11                                                       0,..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Read: 4
+00 00 F3 00                                                       ....
+
+FT_Purge: 0x3
+
+FT_Read: 3
+54 54 72                                                          TTr
+
+FT_Purge: 0x3
+
+[EMU] FT_Write: 2
+3A 32                                                             :2
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+A1 04 A5                                                          ...
+
+[EMU] FT_Write: 3
+3A 36 80                                                          :6.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 129
+
+FT_GetQueueStatus: 129
+
+[EMU] FT_Read: 129
+1F 50 78 C2  AA 6A 12 41  C7 4F 96 7A  0E 6E 0B E0  D7 70 18 A3   .Px..j.A.O.z.n...p..
+17 43 44 FB  FE 5E 5F 57  5E 9B 83 AB  B9 C0 3D F3  F7 47 2B E5   .CD..^_W^.....=..G+.
+6E A9 3A 7A  06 D8 2E 8A  7E 94 1B 1A  92 2D 00 69  3F 5C 71 92   n.:z....~....-.i?\q.
+F5 D9 01 E7  5D 0C E7 B9  38 FE 88 9D  5B 9C 77 2C  8E 68 A2 0F   ....]...8...[.w,.h..
+C1 6F 22 A5  FB 60 B9 F2  4B D1 B7 A1  3F 94 EE AD  67 1D 3A BD   .o"..`..K...?...g.:.
+E8 74 2E 84  AC A3 54 C1  DA 4B CD 4E  D7 F6 C9 1F  1E 9C D8 DE   .t....T..K.N........
+3C 65 2B 34  BA F2 91 CB  A5                                      <e+4.....
+
+[EMU] FT_Write: 2
+3A 34                                                             :4
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+16 45 58 79  41 60 00 A5  A5                                      .EXyA`...
+
+FT_Write: 2
+3A 30                                                             :0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 7
+
+FT_GetQueueStatus: 7
+
+FT_Read: 7
+31 38 A1 F8  28 B8 F3                                             18..(..
+
+FT_Write: 3
+3A 35 80                                                          :5.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+35                                                                5
+
+FT_Write: 3
+3A 35 00                                                          :5.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+15                                                                .
+
+FT_Write: 2
+3A 38                                                             :8
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+[EMU] FT_Read: 1
+D8                                                                .
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+FT_Write: 3
+3A 35 00                                                          :5.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3F                                                                ?
+
+FT_Write: 2
+3A 38                                                             :8
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+[EMU] FT_Read: 1
+D8                                                                .
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+FT_Write: 3
+3A 35 00                                                          :5.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3D                                                                =
+
+FT_Write: 2
+3A 38                                                             :8
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+[EMU] FT_Read: 1
+D8                                                                .
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+FT_Write: 3
+3A 35 00                                                          :5.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3D                                                                =
+
+FT_Write: 2
+3A 38                                                             :8
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+[EMU] FT_Read: 1
+D8                                                                .
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+[MOD] FT_Write: 4
+62 0A 01 AA                                                       b...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+02 FF 72                                                          ..r
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+3F                                                                ?
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+32                                                                2
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 2
+68 01                                                             h.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_Write: 1
+67                                                                g
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+3F                                                                ?
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+32                                                                2
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 2
+68 00                                                             h.
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_Write: 2
+68 01                                                             h.
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_Write: 1
+66                                                                f
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+A5                                                                .
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+C3                                                                .
+
+FT_GetModemStatus: 0x60C0
+

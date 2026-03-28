@@ -1,0 +1,7439 @@
+FT_GetDeviceInfo: Original SN: 79426 , Emulating: 78253
+
+FT_GetDeviceInfo: Original SN: 79426 , Emulating: 78253
+
+FT_ListDevices: Emulating SN 78253
+
+FT_GetDeviceInfo: Original SN: 79426 , Emulating: 78253
+
+FT_OpenEx: Emulating SN: 78253 , Connecting to: 79426
+
+FT_GetDeviceInfo: Original SN: 79426 , Emulating: 78253
+
+FT_Purge: 0x2
+
+FT_Purge: 0x1
+
+FT_Purge: 0x2
+
+FT_Purge: 0x1
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+3F                                                                ?
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 2
+
+FT_GetQueueStatus: 2
+
+FT_Read: 2
+62 CF                                                             b.
+
+FT_Write: 2
+55 1C                                                             U.
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+00 01 FF                                                          ...
+
+FT_Write: 1
+54                                                                T
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+33 C5 08                                                          3..
+
+FT_Write: 2
+55 1D                                                             U.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+00 01 FF                                                          ...
+
+FT_Write: 2
+55 1E                                                             U.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+00 00 00                                                          ...
+
+FT_Write: 2
+55 1F                                                             U.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+00 C7 39                                                          ..9
+
+FT_Write: 1
+56                                                                V
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 8
+
+FT_GetQueueStatus: 22
+
+FT_GetQueueStatus: 32
+
+FT_GetQueueStatus: 32
+
+FT_Read: 32
+55 46 78 42  6F 6F 74 20  56 32 2E 32  20 28 63 29  20 53 61 72   UFxBoot V2.2 (c) Sar
+61 73 53 6F  66 74 20 32  30 30 33 2E                             asSoft 2003.
+
+FT_Write: 5
+44 00 00 17  00                                                   D....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+F0 75 A4 61  96                                                   .u.a.
+
+FT_Write: 1
+53                                                                S
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+CC 2E C8                                                          ...
+
+FT_Write: 1
+41                                                                A
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 8
+
+FT_GetQueueStatus: 22
+
+FT_GetQueueStatus: 32
+
+FT_GetQueueStatus: 32
+
+FT_Read: 32
+55 46 53 5F  55 53 42 20  56 32 2E 38  20 28 63 29  20 53 61 72   UFS_USB V2.8 (c) Sar
+61 73 53 6F  66 74 20 32  30 30 37 2E                             asSoft 2007.
+
+FT_Write: 7
+4C 4D 54 31  39 06 EF                                             LMT19..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+2A                                                                *
+
+FT_Write: 7
+4C 1D 1D 1F  02 0D 98                                             L......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3E                                                                >
+
+FT_Write: 3
+31 7F 78                                                          1.x
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+FT_Read: 3
+72 0A 3E                                                          r.>
+
+FT_Write: 1
+7E                                                                ~
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+0D                                                                .
+
+FT_Write: 1
+39                                                                9
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 7
+
+FT_GetQueueStatus: 11
+
+FT_Read: 1
+3E                                                                >
+
+FT_GetQueueStatus: 10
+
+FT_GetQueueStatus: 20
+
+FT_GetQueueStatus: 34
+
+FT_GetQueueStatus: 49
+
+FT_GetQueueStatus: 63
+
+FT_GetQueueStatus: 82
+
+FT_GetQueueStatus: 97
+
+FT_GetQueueStatus: 111
+
+FT_GetQueueStatus: 126
+
+FT_GetQueueStatus: 140
+
+FT_GetQueueStatus: 155
+
+FT_GetQueueStatus: 169
+
+FT_GetQueueStatus: 183
+
+FT_GetQueueStatus: 193
+
+FT_GetQueueStatus: 193
+
+[EMU] FT_Read: 193
+DE AD BA BE  FA CE 0B AD  F0 0D 1B 11  51 27 92 0C  5E 49 F4 BE   ............Q'..^I..
+CA F2 53 F7  53 84 61 18  C5 0E B1 20  B4 01 F4 E5  C2 8D 2B 2C   ..S.S.a.... ......+,
+E9 05 47 5B  46 CC 63 A0  39 21 62 8F  8A 9E 09 B2  DA 72 BC 6E   ..G[F.c.9!b......r.n
+5F C8 98 69  52 9D C2 A3  6C 4C C7 20  24 F1 2D C1  87 38 13 5B   _..iR...lL. $.-..8.[
+68 EF 2E 2C  9D 5A 22 C6  07 05 44 C8  19 1D 1F E6  F3 78 69 CF   h..,.Z"...D......xi.
+E6 C1 14 FE  0B 65 B0 89  17 22 60 AA  FC CE 4C 92  BB 8D 5A 39   .....e..."`...L...Z9
+5E E9 2A A8  B3 41 DD 0D  01 64 16 2C  93 61 E3 14  5E 21 DA 9B   ^.*..A...d.,.a..^!..
+7C 6D 73 B4  9B DD 61 96  3D F8 58 12  B8 E2 9A D0  3A 63 0D 81   |ms...a.=.X.....:c..
+9F 95 74 F1  0D 05 A5 1C  9B C2 A7 75  5A EF 49 C4  32 7B 3F 39   ..t........uZ.I.2{?9
+4B 1F CA BC  39 94 13 65  90 89 12 E8  3E                         K...9..e....>
+
+FT_Write: 1
+38                                                                8
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+FT_Read: 1
+3E                                                                >
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+[EMU] FT_Read: 4
+2E CC C8 3E                                                       ...>
+
+FT_Write: 3
+3B 01 80                                                          ;..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+[EMU] FT_Read: 4
+06 9B E5 AB                                                       ....
+
+FT_Write: 12
+3C 3A C9 73  40 ED 34 56  87 00 03 00                             <:.s@.4V....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+[EMU] FT_Read: 4
+0C A7 3C AD                                                       ..<.
+
+FT_Write: 5
+44 00 00 08  00                                                   D....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+7A D0 2B AF  DC                                                   z.+..
+
+FT_Write: 5
+44 18 00 08  00                                                   D....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+F6 E1 89 55  4B                                                   ...UK
+
+FT_Write: 2
+55 14                                                             U.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+58 70 38                                                          Xp8
+
+FT_Write: 2
+55 15                                                             U.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+00 A2 5E                                                          ..^
+
+FT_Write: 2
+55 05                                                             U.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+01 AB 54                                                          ..T
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 2
+42 10                                                             B.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+58                                                                X
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+5A                                                                Z
+
+FT_Write: 1
+36                                                                6
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+54                                                                T
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+31                                                                1
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+54                                                                T
+
+FT_Write: 1
+39                                                                9
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3E                                                                >
+
+FT_Write: 1
+45                                                                E
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 65
+
+FT_GetQueueStatus: 65
+
+FT_Read: 65
+12 F8 FE FF  00 00 00 00  00 10 18 02  39 00 00 DE  A1 B2 EF 30   ............9......0
+0F 30 3D 2E  3D 3D 3D 3D  00 22 1B 01  00 00 00 00  5C 07 00 00   .0=.====."......\...
+00 00 01 00  00 00 09 80  00 A6 7E 05  07 00 00 00  F9 01 00 00   ..........~.........
+00 5F 04 80  70                                                   ._..p
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetModemStatus: 0x60E0
+
+FT_GetDeviceInfo: Original SN: 79426 , Emulating: 78253
+
+FT_GetModemStatus: 0x60E0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 2
+42 10                                                             B.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+58                                                                X
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+5A                                                                Z
+
+FT_Write: 6
+59 00 58 01  00 A7                                                Y.X...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3E                                                                >
+
+FT_Write: 1
+36                                                                6
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+54                                                                T
+
+FT_GetModemStatus: 0x60E0
+
+FT_Write: 1
+30                                                                0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+54                                                                T
+
+FT_GetModemStatus: 0x6060
+
+[EMU] FT_Write: 1
+32                                                                2
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+[EMU] FT_Read: 1
+A5                                                                .
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 6
+36 11 03 02  00 10                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 19
+
+FT_GetQueueStatus: 19
+
+[EMU] FT_Read: 19
+54 16 45 58  79 41 60 00  A5 00 00 00  00 00 00 00  00 A5 54      T.EXyA`...........T
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 7
+36 07 04 0B  80 08 80                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A5 00 A5  00 A5 00 A5  54                                      T.......T
+
+[EMU] FT_Write: 6
+36 F9 03 02  08 F8                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 251
+
+FT_GetQueueStatus: 251
+
+[EMU] FT_Read: 251
+54 1F 50 78  C2 AA 6A 12  41 C7 4F 96  7A 0E 6E 0B  E0 D7 70 18   T.Px..j.A.O.z.n...p.
+A3 17 43 44  FB FE 5E 5F  57 5E 9B 83  AB B9 C0 3D  F3 F7 47 2B   ..CD..^_W^.....=..G+
+E5 6E A9 3A  7A 06 D8 2E  8A 7E 94 1B  1A 92 2D 00  69 3F 5C 71   .n.:z....~....-.i?\q
+92 F5 D9 01  E7 5D 0C E7  B9 38 FE 88  9D 5B 9C 77  2C 8E 68 A2   .....]...8...[.w,.h.
+0F C1 6F 22  A5 FB 60 B9  F2 4B D1 B7  A1 3F 94 EE  AD 67 1D 3A   ..o"..`..K...?...g.:
+BD E8 74 2E  84 AC A3 54  C1 DA 4B CD  4E D7 F6 C9  1F 1E 9C D8   ..t....T..K.N.......
+DE 3C 65 2B  34 BA F2 91  CB 00 00 00  00 00 00 00  00 00 00 00   .<e+4...............
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 16  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 20 80  28 00 D9 04   .............. .(...
+2B 58 FA 24  FA 4E F4 D4  F2 A5 54                                +X.$.N....T
+
+[EMU] FT_Write: 7
+36 01 04 0B  77 1B 01                                             6...w..
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 02 03 02  1B 01                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 4
+
+FT_GetQueueStatus: 4
+
+[EMU] FT_Read: 4
+54 66 A5 54                                                       Tf.T
+
+[EMU] FT_Write: 7
+36 01 04 0B  00 08 80                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 F1 03 02  00 F0                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 243
+
+FT_GetQueueStatus: 243
+
+[EMU] FT_Read: 243
+54 16 45 58  79 41 60 00  A5 49 6E 69  74 5F 4F 6B  5F FF FF FF   T.EXyA`..Init_Ok_...
+FF FF FF FF  FF DA AC 7E  7E FF 63 34  B4 63 4A 47  89 23 87 0E   .......~~.c4.cJG.#..
+CE 81 49 70  A8 B3 32 B6  3E FA 39 FE  48 5E 14 69  9F 3B CB A9   ..Ip..2.>.9.H^.i.;..
+99 C3 69 74  D0 46 B6 35  92 63 1C B8  26 69 05 C3  06 A6 07 93   ..it.F.5.c..&i......
+6B FD C4 AD  8E 2F 30 01  98 0B 5B 24  AB 76 6F 3E  16 F8 64 44   k..../0...[$.vo>..dD
+74 2D 45 1F  92 4C 61 7A  79 46 6F 78  49 73 54 68  65 42 69 63   t-E..LazyFoxIsTheBic
+48 53 61 72  61 73 53 6F  66 74 28 63  29 32 30 30  35 00 00 00   HSarasSoft(c)2005...
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 16  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 A5 54                                                          ..T
+
+[EMU] FT_Write: 4
+36 03 01 01                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 5
+
+FT_GetQueueStatus: 5
+
+[EMU] FT_Read: 5
+54 A1 04 A5  54                                                   T...T
+
+[EMU] FT_Write: 4
+36 01 01 04                                                       6...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 A5 54                                                          T.T
+
+[EMU] FT_Write: 6
+36 19 03 02  85 18                                                6.....
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 27
+
+FT_GetQueueStatus: 27
+
+[EMU] FT_Read: 27
+54 00 00 00  FF FF FF FF  FF FF FF FF  00 00 00 55  00 00 00 00   T..............U....
+B3 45 58 79  41 A5 54                                             .EXyA.T
+
+[EMU] FT_Write: 7
+36 07 04 11  E0 1C 80                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EA B0 6F  17 E8 1C A5  54                                      T..o....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FE 00 10                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 08 5D DC  4E FF 00 A5  54                                      T.].N...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FE F0 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4A E9 44  1F FF 00 A5  54                                      TJ.D....T
+
+[EMU] FT_Write: 7
+36 07 04 11  E0 00 0B                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 20 63 E5  61 E0 B0 A5  54                                      T c.a...T
+
+[EMU] FT_Write: 7
+36 07 04 11  E2 00 0D                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 55 9F D3  33 E2 D0 A5  54                                      TU..3...T
+
+[EMU] FT_Write: 7
+36 07 04 11  E4 00 17                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 ED 48 A2  C4 E5 70 A5  54                                      T.H...p.T
+
+[EMU] FT_Write: 7
+36 07 04 11  E6 00 09                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 97 55 7A  A8 E6 90 A5  54                                      T.Uz....T
+
+[EMU] FT_Write: 7
+36 07 04 11  E8 00 17                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 ED 48 A2  C4 E9 70 A5  54                                      T.H...p.T
+
+[EMU] FT_Write: 7
+36 07 04 11  EA 00 05                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 23 1C 34  61 EA 50 A5  54                                      T#.4a.P.T
+
+[EMU] FT_Write: 7
+36 07 04 11  EC 00 1C                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D4 04 67  94 ED C0 A5  54                                      T..g....T
+
+[EMU] FT_Write: 7
+36 07 04 11  EE 00 1E                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BE DB 84  D1 EF E0 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 19 6B D3  1F F2 00 A5  54                                      T.k.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DC 5A 0C  03 F4 00 A5  54                                      T.Z.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 40 CD 09  5A FA 00 A5  54                                      T@..Z...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 00 20                                             6..... 
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FA C6 F8  87 FE 00 A5  54                                      T.......T
+
+[EMU] FT_Write: 4
+36 01 01 53                                                       6..S
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 5A 54                                                          TZT
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 33 80 06  53 F0 19 A5  54                                      T3..S...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 11 69 8E  74 F0 29 A5  54                                      T.i.t.).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F4 8F 0C  9A F0 39 A5  54                                      T.....9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 22 14 89  75 F0 49 A5  54                                      T"..u.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4E 7D 17  D4 F0 59 A5  54                                      TN}...Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 37 82 58  BF F0 69 A5  54                                      T7.X..i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E0 D0 95  9D F0 79 A5  54                                      T.....y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 02 FE C6  29 F0 89 A5  54                                      T...)...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C3 BA BA  32 F0 99 A5  54                                      T...2...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 32 9C 42  DC F0 A9 A5  54                                      T2.B....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 24 89 83  5C F0 B9 A5  54                                      T$..\...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A4 2E 85  19 F0 C9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 74 0D 2C  A1 F0 D9 A5  54                                      Tt.,....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 43 72 1C  3F F0 E9 A5  54                                      TCr.?...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5B 42 E0  E0 F0 F9 A5  54                                      T[B.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DD B7 9A  27 F1 09 A5  54                                      T...'...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5A 0D 09  12 F1 19 A5  54                                      TZ......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3E 0B A0  10 F1 29 A5  54                                      T>....).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0A FD 82  F2 F1 39 A5  54                                      T.....9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A5 3D B1  CB F1 49 A5  54                                      T.=...I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1A 5A 0A  02 F1 59 A5  54                                      T.Z...Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1D B4 F4  19 F1 69 A5  54                                      T.....i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2C D6 7A  F2 F1 79 A5  54                                      T,.z..y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8F D0 8A  91 F1 89 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4B E3 60  44 F1 99 A5  54                                      TK.`D...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 9E 66 FE  9B F1 A9 A5  54                                      T.f.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 02 68 E8  93 F1 B9 A5  54                                      T.h.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B5 B3 96  42 F1 C9 A5  54                                      T...B...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B5 D2 9B  28 F1 D9 A5  54                                      T...(...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2A 2F FC  88 F1 E9 A5  54                                      T*/.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 46 D8 80  D3 F1 F9 A5  54                                      TF......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B1 B6 45  80 F2 09 A5  54                                      T..E....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F1 F5 1C  EA F2 19 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B8 BE 9D  55 F2 29 A5  54                                      T...U.).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0C CB 1A  28 F2 39 A5  54                                      T...(.9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A1 B0 E3  D1 F2 49 A5  54                                      T.....I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7F D0 DC  C3 F2 59 A5  54                                      T.....Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3A 44 1E  FB F2 69 A5  54                                      T:D...i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E8 CB B8  00 F2 79 A5  54                                      T.....y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 30 8B 42  24 F2 89 A5  54                                      T0.B$...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0A 70 65  ED F2 99 A5  54                                      T.pe....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 14 61 EC  64 F2 A9 A5  54                                      T.a.d...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 51 DA 62  85 F2 B9 A5  54                                      TQ.b....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 84 94 DD  61 F2 C9 A5  54                                      T...a...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 93 3C 86  E0 F2 D9 A5  54                                      T.<.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 48 B1 E3  F1 F2 E9 A5  54                                      TH......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4F C5 0B  45 F2 F9 A5  54                                      TO..E...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0D 3B 70  6F F3 09 A5  54                                      T.;po...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F8 9B 31  54 F3 19 A5  54                                      T..1T...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1E AB AE  AF F3 29 A5  54                                      T.....).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AA 0A B0  74 F3 39 A5  54                                      T...t.9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 04 B4 6E  96 F3 49 A5  54                                      T..n..I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 43 41 31  A1 F3 59 A5  54                                      TCA1..Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2C AE 9D  14 F3 69 A5  54                                      T,....i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 65 68 E5  A2 F3 79 A5  54                                      Teh...y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 36 2B FF  94 F3 89 A5  54                                      T6+.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 23 B0 12  AC F3 99 A5  54                                      T#......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E1 02 94  09 F3 A9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4F B2 6A  AC F3 B9 A5  54                                      TO.j....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7D 58 61  B1 F3 C9 A5  54                                      T}Xa....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E6 4C DA  15 F3 D9 A5  54                                      T.L.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5D 56 66  EC F3 E9 A5  54                                      T]Vf....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DF 30 2F  5E F3 F9 A5  54                                      T.0/^...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D1 49 7A  44 F4 09 A5  54                                      T.IzD...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5C 95 A3  71 F4 19 A5  54                                      T\..q...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FB B8 8B  24 F4 29 A5  54                                      T...$.).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AC 07 D6  6F F4 39 A5  54                                      T...o.9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AB 11 B5  45 F4 49 A5  54                                      T...E.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 65 73 52  56 F4 59 A5  54                                      TesRV.Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 39 27 77  27 F4 69 A5  54                                      T9'w'.i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3C 37 B0  34 F4 79 A5  54                                      T<7.4.y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 20 39 1F  58 F4 89 A5  54                                      T 9.X...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AA 03 6F  03 F4 99 A5  54                                      T..o....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 39 7E 9B  4F F4 A9 A5  54                                      T9~.O...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 34 F0 7B  6D F4 B9 A5  54                                      T4.{m...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A2 6A 30  25 F4 C9 A5  54                                      T.j0%...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DC 42 F3  3E F4 D9 A5  54                                      T.B.>...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4A A7 CD  EC F4 E9 A5  54                                      TJ......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6D 32 90  06 F4 F9 A5  54                                      Tm2.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 68 88 0B  DF F5 09 A5  54                                      Th......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 78 13 83  8D F5 19 A5  54                                      Tx......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2F FA A6  0C F5 29 A5  54                                      T/....).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 01 33 72  48 F5 39 A5  54                                      T.3rH.9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B0 23 DC  06 F5 49 A5  54                                      T.#...I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 51 5F 07  DA F5 59 A5  54                                      TQ_...Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 24 26 5E  D5 F5 69 A5  54                                      T$&^..i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E3 69 9A  66 F5 79 A5  54                                      T.i.f.y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8A 3A 59  3D F5 89 A5  54                                      T.:Y=...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2D 23 D4  70 F5 99 A5  54                                      T-#.p...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 65 BF DC  DC F5 A9 A5  54                                      Te......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C9 B8 C6  50 F5 B9 A5  54                                      T...P...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 57 BE BB  F4 F5 C9 A5  54                                      TW......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B5 C7 3E  41 F5 D9 A5  54                                      T..>A...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 77 28 46  7D F5 E9 A5  54                                      Tw(F}...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DC 0D 84  0E F5 F9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EE 55 7C  D4 F6 09 A5  54                                      T.U|....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8F D8 AE  DE F6 19 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 87 14 4B  E6 F6 29 A5  54                                      T..K..).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C6 67 D5  9B F6 39 A5  54                                      T.g...9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8D 3F 60  38 F6 49 A5  54                                      T.?`8.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 40 11 24  B5 F6 59 A5  54                                      T@.$..Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8A 2E 64  A7 F6 69 A5  54                                      T..d..i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E4 C8 1A  04 F6 79 A5  54                                      T.....y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 CE C0 2C  FF F6 89 A5  54                                      T..,....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AF 39 37  58 F6 99 A5  54                                      T.97X...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D4 EE DC  A3 F6 A9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C4 22 1A  D8 F6 B9 A5  54                                      T.".....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C0 36 C5  91 F6 C9 A5  54                                      T.6.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0A 52 03  7B F6 D9 A5  54                                      T.R.{...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 93 D5 50  E7 F6 E9 A5  54                                      T..P....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 83 63 96  25 F6 F9 A5  54                                      T.c.%...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 29 C1 1A  69 F7 09 A5  54                                      T)..i...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 88 7B CD  83 F7 19 A5  54                                      T.{.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 22 80 BB  35 F7 29 A5  54                                      T"..5.).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0C 99 39  A1 F7 39 A5  54                                      T..9..9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 74 A9 CC  92 F7 49 A5  54                                      Tt....I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 61 15 12  4F F7 59 A5  54                                      Ta..O.Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2F DF 81  A4 F7 69 A5  54                                      T/....i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C6 88 EB  6F F7 79 A5  54                                      T...o.y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6E 84 95  DB F7 89 A5  54                                      Tn......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 48 7D 1B  9E F7 99 A5  54                                      TH}.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 03 67 A6  CE F7 A9 A5  54                                      T.g.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 28 11 E4  27 F7 B9 A5  54                                      T(..'...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 76 62 5D  60 F7 C9 A5  54                                      Tvb]`...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 72 86 30  95 F7 D9 A5  54                                      Tr.0....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F1 4F 65  9D F7 E9 A5  54                                      T.Oe....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B9 1D 5D  7F F7 F9 A5  54                                      T..]....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 99 B7 A1  AB F8 09 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 17 32 E3  9C F8 19 A5  54                                      T.2.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EF 85 7B  D9 F8 29 A5  54                                      T..{..).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 33 5C 96  06 F8 39 A5  54                                      T3\...9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2C 94 D8  23 F8 49 A5  54                                      T,..#.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6E 91 6B  54 F8 59 A5  54                                      Tn.kT.Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 83 43 F2  71 F8 69 A5  54                                      T.C.q.i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4C FB AE  85 F8 79 A5  54                                      TL....y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1B 74 FE  C8 F8 89 A5  54                                      T.t.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B3 05 65  CD F8 99 A5  54                                      T..e....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 81 32 9B  6A F8 A9 A5  54                                      T.2.j...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F8 05 70  F2 F8 B9 A5  54                                      T..p....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C5 AF 30  34 F8 C9 A5  54                                      T..04...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3E 8C 40  8B F8 D9 A5  54                                      T>.@....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 02 62 34  5C F8 E9 A5  54                                      T.b4\...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7F 11 F7  96 F8 F9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5F 26 2F  92 F9 09 A5  54                                      T_&/....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FD A4 30  7F F9 19 A5  54                                      T..0....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 32 5F 13  54 F9 29 A5  54                                      T2_.T.).T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A5 31 07  15 F9 39 A5  54                                      T.1...9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AF FB 9E  23 F9 49 A5  54                                      T...#.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2F 48 6E  7F F9 59 A5  54                                      T/Hn..Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 60 6A D9  42 F9 69 A5  54                                      T`j.B.i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6A 6D 3F  04 F9 79 A5  54                                      Tjm?..y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 25 CD 06  CC F9 89 A5  54                                      T%......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4F F5 AB  37 F9 99 A5  54                                      TO..7...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E7 56 BA  C9 F9 A9 A5  54                                      T.V.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 41 AF 9A  7D F9 B9 A5  54                                      TA..}...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4C FE 3B  7E F9 C9 A5  54                                      TL.;~...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C4 B3 70  9B F9 D9 A5  54                                      T..p....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 58 0C 04  27 F9 E9 A5  54                                      TX..'...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D4 DE 11  01 F9 F9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FE 8D D0  43 FA 09 A5  54                                      T...C...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C4 B4 14  BB FA 19 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3E D4 0C  F4 FA 29 A5  54                                      T>....).T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EE FD C0  EC FA 39 A5  54                                      T.....9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FB E9 F3  63 FA 49 A5  54                                      T...c.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4A B8 D1  2C FA 59 A5  54                                      TJ..,.Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E6 7C 06  95 FA 69 A5  54                                      T.|...i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A3 E7 13  4A FA 79 A5  54                                      T...J.y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5B 8D CE  17 FA 89 A5  54                                      T[......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 29 D2 FB  A9 FA 99 A5  54                                      T)......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 51 31 54  0A FA A9 A5  54                                      TQ1T....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 55 F4 B2  BA FA B9 A5  54                                      TU......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 22 E0 91  B8 FA C9 A5  54                                      T"......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 49 73 05  D9 FA D9 A5  54                                      TIs.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 79 9B 5B  65 FA E9 A5  54                                      Ty.[e...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E4 D4 2C  67 FA F9 A5  54                                      T..,g...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 CF A7 DE  4E FB 09 A5  54                                      T...N...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 43 9F 1B  3F FB 19 A5  54                                      TC..?...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 35 14 D4  7C FB 29 A5  54                                      T5..|.).T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C6 D0 40  27 FB 39 A5  54                                      T..@'.9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F5 F7 C1  2D FB 49 A5  54                                      T...-.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 42 D2 A2  7A FB 59 A5  54                                      TB..z.Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A6 FE CF  D2 FB 69 A5  54                                      T.....i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4E 18 26  AF FB 79 A5  54                                      TN.&..y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0F F5 0E  1D FB 89 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AD 7A 0A  07 FB 99 A5  54                                      T.z.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1F B4 B8  4F FB A9 A5  54                                      T...O...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 17 F2 05  91 FB B9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 9F 80 AA  75 FB C9 A5  54                                      T...u...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 75 10 00  E8 FB D9 A5  54                                      Tu......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 79 E6 EB  91 FB E9 A5  54                                      Ty......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 75 56 00  3B FB F9 A5  54                                      TuV.;...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 77 70 7D  4E FC 09 A5  54                                      Twp}N...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 58 43 D9  B5 FC 19 A5  54                                      TXC.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 93 F0 F2  AF FC 29 A5  54                                      T.....).T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1F 5A 7E  92 FC 39 A5  54                                      T.Z~..9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3E 30 6B  25 FC 49 A5  54                                      T>0k%.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 59 A8 70  90 FC 59 A5  54                                      TY.p..Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 34 48 D5  ED FC 69 A5  54                                      T4H...i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B7 55 CC  32 FC 79 A5  54                                      T.U.2.y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 98 88 50  4F FC 89 A5  54                                      T..PO...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 84 45 35  39 FC 99 A5  54                                      T.E59...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 07 74 E8  6D FC A9 A5  54                                      T.t.m...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AF 39 37  58 FC B9 A5  54                                      T.97X...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D4 EE DC  A3 FC C9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C4 22 1A  D8 FC D9 A5  54                                      T.".....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F5 57 F7  63 FC E9 A5  54                                      T.W.c...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C9 C6 F1  DB FC F9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC F9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 95 DE 8D  69 FD 09 A5  54                                      T...i...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 09 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B8 D6 47  C8 FD 19 A5  54                                      T..G....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 19 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E2 DB BD  D9 FD 29 A5  54                                      T.....).T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 29 01                                             6....).
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DC F8 EA  7C FD 39 A5  54                                      T...|.9.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 39 01                                             6....9.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 CA 2F 2C  48 FD 49 A5  54                                      T./,H.I.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 49 01                                             6....I.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2E B0 1D  BD FD 59 A5  54                                      T.....Y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 59 01                                             6....Y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 36 8F D6  64 FD 69 A5  54                                      T6..d.i.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 69 01                                             6....i.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 9F 16 68  1C FD 79 A5  54                                      T..h..y.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 79 01                                             6....y.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B7 70 C5  24 FD 89 A5  54                                      T.p.$...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 89 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 28 07 47  1A FD 99 A5  54                                      T(.G....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 99 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D7 0A 02  10 FD A9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD A9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BD 1D ED  30 FD B9 A5  54                                      T...0...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD B9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 32 8E 0F  70 FD C9 A5  54                                      T2..p...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD C9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B8 94 D5  BC FD D9 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD D9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8C 38 B7  D3 FD E9 A5  54                                      T.8.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD E9 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A9 6D 9D  E9 FD F9 A5  54                                      T.m.....T
+
+[EMU] FT_Write: 4
+36 01 01 51                                                       6..Q
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 5A 54                                                          TZT
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3D AF 86  90 F0 17 A5  54                                      T=......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B1 56 F3  8C F0 27 A5  54                                      T.V...'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B3 91 A4  62 F0 37 A5  54                                      T...b.7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 58 79 4D  EA F0 47 A5  54                                      TXyM..G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7C 2D CD  86 F0 57 A5  54                                      T|-...W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 11 D1 F3  0D F0 67 A5  54                                      T.....g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B6 ED 14  ED F0 77 A5  54                                      T.....w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7C 27 F7  D9 F0 87 A5  54                                      T|'.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 45 8C 45  8E F0 97 A5  54                                      TE.E....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0D 09 A5  2F F0 A7 A5  54                                      T.../...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6E B3 D0  5E F0 B7 A5  54                                      Tn..^...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DE F0 65  19 F0 C7 A5  54                                      T..e....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 12 82 AA  19 F0 D7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 42 69 EF  09 F0 E7 A5  54                                      TBi.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4B 76 75  CD F0 F7 A5  54                                      TKvu....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F0 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 14 58 A6  84 F1 07 A5  54                                      T.X.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 38 83 EC  47 F1 17 A5  54                                      T8..G...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C3 29 1B  6A F1 27 A5  54                                      T.).j.'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D3 31 DA  DD F1 37 A5  54                                      T.1...7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0A AF 55  93 F1 47 A5  54                                      T..U..G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 82 AF 72  5C F1 57 A5  54                                      T..r\.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8E 7D 6A  EF F1 67 A5  54                                      T.}j..g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 12 7D 5E  AC F1 77 A5  54                                      T.}^..w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FC 6D BE  87 F1 87 A5  54                                      T.m.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7D 78 F1  FB F1 97 A5  54                                      T}x.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 71 5C 1B  7B F1 A7 A5  54                                      Tq\.{...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D9 79 54  B3 F1 B7 A5  54                                      T.yT....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 27 E7 32  28 F1 C7 A5  54                                      T'.2(...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E1 2F 1B  47 F1 D7 A5  54                                      T./.G...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 58 2E 0F  03 F1 E7 A5  54                                      TX......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EA BF 9F  10 F1 F7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F1 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 96 D8 5A  C2 F2 07 A5  54                                      T..Z....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 01 8B 9D  32 F2 17 A5  54                                      T...2...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7C E5 39  00 F2 27 A5  54                                      T|.9..'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 65 D1 F4  04 F2 37 A5  54                                      Te....7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D5 C5 A4  16 F2 47 A5  54                                      T.....G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 82 F3 FF  D3 F2 57 A5  54                                      T.....W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 38 A4 AC  E8 F2 67 A5  54                                      T8....g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 CA 07 25  D9 F2 77 A5  54                                      T..%..w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6C 9A 40  1F F2 87 A5  54                                      Tl.@....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 43 5D 8E  FE F2 97 A5  54                                      TC].....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1F 54 71  88 F2 A7 A5  54                                      T.Tq....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5C 3A 1B  FE F2 B7 A5  54                                      T\:.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 36 13 44  BC F2 C7 A5  54                                      T6.D....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 80 13 4A  58 F2 D7 A5  54                                      T..JX...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3A 27 27  F4 F2 E7 A5  54                                      T:''....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 34 3E 66  3E F2 F7 A5  54                                      T4>f>...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F2 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 38 C9 BB  83 F3 07 A5  54                                      T8......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1C FD 60  71 F3 17 A5  54                                      T..`q...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 96 59 3C  70 F3 27 A5  54                                      T.Y<p.'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3C F9 3F  33 F3 37 A5  54                                      T<.?3.7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E0 11 DB  B6 F3 47 A5  54                                      T.....G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 AE 02 74  65 F3 57 A5  54                                      T..te.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 15 0B E2  4B F3 67 A5  54                                      T...K.g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6C 9D 8D  82 F3 77 A5  54                                      Tl....w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 77 08 45  26 F3 87 A5  54                                      Tw.E&...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FD 84 D0  09 F3 97 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0A BD FC  3D F3 A7 A5  54                                      T...=...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3E C1 36  75 F3 B7 A5  54                                      T>.6u...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 68 F8 44  4E F3 C7 A5  54                                      Th.DN...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F8 CC 0E  0C F3 D7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 20 6B 3E  63 F3 E7 A5  54                                      T k>c...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D6 92 0E  0A F3 F7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F3 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 CA A4 0E  0A F4 07 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 48 27 61  1C F4 17 A5  54                                      TH'a....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B0 3E 49  D5 F4 27 A5  54                                      T.>I..'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 55 82 D3  34 F4 37 A5  54                                      TU..4.7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 43 9A AC  EE F4 47 A5  54                                      TC....G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E3 4A 78  D1 F4 57 A5  54                                      T.Jx..W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BF 16 19  75 F4 67 A5  54                                      T...u.g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DD F1 56  6D F4 77 A5  54                                      T..Vm.w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 72 8A 7F  7F F4 87 A5  54                                      Tr......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3C 2C 0E  40 F4 97 A5  54                                      T<,.@...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1D C8 F0  60 F4 A7 A5  54                                      T...`...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D6 C1 39  BF F4 B7 A5  54                                      T..9....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A7 ED 9B  7E F4 C7 A5  54                                      T...~...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A8 10 79  1C F4 D7 A5  54                                      T..y....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 53 CD 04  FB F4 E7 A5  54                                      TS......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D8 DB 1F  6E F4 F7 A5  54                                      T...n...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F4 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E5 8F 69  E2 F5 07 A5  54                                      T..i....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C1 B0 5A  16 F5 17 A5  54                                      T..Z....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 16 F3 F5  8E F5 27 A5  54                                      T.....'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 71 59 89  B3 F5 37 A5  54                                      TqY...7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B6 7E B1  67 F5 47 A5  54                                      T.~.g.G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6A 36 76  A6 F5 57 A5  54                                      Tj6v..W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EB 6B A6  1D F5 67 A5  54                                      T.k...g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 9F 0F 8C  2D F5 77 A5  54                                      T...-.w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DF 85 81  65 F5 87 A5  54                                      T...e...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 40 81 64  E9 F5 97 A5  54                                      T@.d....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E8 5B AF  A6 F5 A7 A5  54                                      T.[.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BE 8D E0  66 F5 B7 A5  54                                      T...f...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 05 D7 CC  F0 F5 C7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A1 B2 66  DE F5 D7 A5  54                                      T..f....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0E 82 00  A0 F5 E7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 89 05 A5  70 F5 F7 A5  54                                      T...p...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F5 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5F EB 3E  49 F6 07 A5  54                                      T_.>I...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D7 2E 78  86 F6 17 A5  54                                      T..x....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 51 E6 9E  F0 F6 27 A5  54                                      TQ....'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DB 50 93  EF F6 37 A5  54                                      T.P...7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 74 5D 85  9C F6 47 A5  54                                      Tt]...G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B7 CC D2  70 F6 57 A5  54                                      T...p.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B3 AB 68  37 F6 67 A5  54                                      T..h7.g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F0 87 39  FF F6 77 A5  54                                      T..9..w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 39 69 EB  E4 F6 87 A5  54                                      T9i.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 08 B4 4A  75 F6 97 A5  54                                      T..Ju...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 60 B2 C4  3E F6 A7 A5  54                                      T`..>...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A0 B6 77  10 F6 B7 A5  54                                      T..w....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 11 2F E8  59 F6 C7 A5  54                                      T./.Y...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F6 4C A7  37 F6 D7 A5  54                                      T.L.7...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6A 09 C4  01 F6 E7 A5  54                                      Tj......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4F 80 AC  C8 F6 F7 A5  54                                      TO......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F6 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 48 B6 CC  03 F7 07 A5  54                                      TH......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C1 B0 5A  16 F7 17 A5  54                                      T..Z....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FD 27 8D  75 F7 27 A5  54                                      T.'.u.'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E0 2A A6  DA F7 37 A5  54                                      T.*...7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 22 CD 50  47 F7 47 A5  54                                      T".PG.G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1F 49 34  62 F7 57 A5  54                                      T.I4b.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 08 B7 D5  6F F7 67 A5  54                                      T...o.g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 24 48 F9  AB F7 77 A5  54                                      T$H...w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7E EC 16  31 F7 87 A5  54                                      T~..1...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1E 56 7A  0F F7 97 A5  54                                      T.Vz....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4E 66 36  AB F7 A7 A5  54                                      TNf6....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 65 0A 4F  E7 F7 B7 A5  54                                      Te.O....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 54 2F 7C  B7 F7 C7 A5  54                                      TT/|....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7C B5 0B  50 F7 D7 A5  54                                      T|..P...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F3 DB DB  DE F7 E7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 04 04 6D  DB F7 F7 A5  54                                      T..m....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F7 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 47 07 C6  BE F8 07 A5  54                                      TG......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2F 61 B9  65 F8 17 A5  54                                      T/a.e...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6D A0 72  EB F8 27 A5  54                                      Tm.r..'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 58 90 2D  27 F8 37 A5  54                                      TX.-'.7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 22 32 AE  7E F8 47 A5  54                                      T"2.~.G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B4 75 C8  52 F8 57 A5  54                                      T.u.R.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DD 89 67  3B F8 67 A5  54                                      T..g;.g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 CE 9D 0F  DE F8 77 A5  54                                      T.....w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 58 F2 C0  97 F8 87 A5  54                                      TX......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6A 2E 2C  78 F8 97 A5  54                                      Tj.,x...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 11 73 75  24 F8 A7 A5  54                                      T.su$...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 61 35 2C  71 F8 B7 A5  54                                      Ta5,q...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EE CA 6B  8F F8 C7 A5  54                                      T..k....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5B 71 BD  68 F8 D7 A5  54                                      T[q.h...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 73 ED DB  42 F8 E7 A5  54                                      Ts..B...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 13 7D 6D  A4 F8 F7 A5  54                                      T.}m....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F8 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 41 90 59  9F F9 07 A5  54                                      TA.Y....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B1 AD 4F  56 F9 17 A5  54                                      T..OV...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 48 79 28  F9 F9 27 A5  54                                      THy(..'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DE 5D F1  72 F9 37 A5  54                                      T.].r.7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E9 1B AC  33 F9 47 A5  54                                      T...3.G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2C FA C2  35 F9 57 A5  54                                      T,..5.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 46 C8 3E  CA F9 67 A5  54                                      TF.>..g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C7 B6 86  30 F9 77 A5  54                                      T...0.w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EB 7F D8  22 F9 87 A5  54                                      T..."...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F6 9C 1A  D8 F9 97 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 24 C4 61  B4 F9 A7 A5  54                                      T$.a....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 6F F7 43  EA F9 B7 A5  54                                      To.C....T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 29 B7 A4  BE F9 C7 A5  54                                      T)......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 0F 26 63  6F F9 D7 A5  54                                      T.&co...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3C A4 22  4E F9 E7 A5  54                                      T<."N...T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4D CD 85  05 F9 F7 A5  54                                      TM......T
+
+[EMU] FT_Write: 7
+36 07 04 11  F9 F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 28 01 30  82 FA 07 A5  54                                      T(.0....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4D 77 79  5D FA 17 A5  54                                      TMwy]...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2A 5D 62  71 FA 27 A5  54                                      T*]bq.'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BF 27 63  E3 FA 37 A5  54                                      T.'c..7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 69 D4 61  19 FA 47 A5  54                                      Ti.a..G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F1 45 5D  51 FA 57 A5  54                                      T.E]Q.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 98 2A 75  57 FA 67 A5  54                                      T.*uW.g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 FD 71 D5  89 FA 77 A5  54                                      T.q...w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 27 40 4A  1E FA 87 A5  54                                      T'@J....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F1 D3 D7  99 FA 97 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BC 2F 76  5F FA A7 A5  54                                      T./v_...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EA 35 90  D3 FA B7 A5  54                                      T.5.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 54 1F B6  38 FA C7 A5  54                                      TT..8...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E4 32 8F  25 FA D7 A5  54                                      T.2.%...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 4B 57 92  A2 FA E7 A5  54                                      TKW.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 CC F0 DB  91 FA F7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FA F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B8 9D 95  0D FB 07 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C1 B0 5A  16 FB 17 A5  54                                      T..Z....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 37 04 3A  72 FB 27 A5  54                                      T7.:r.'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 91 18 FC  69 FB 37 A5  54                                      T...i.7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DF B3 6F  C0 FB 47 A5  54                                      T..o..G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F1 33 9E  65 FB 57 A5  54                                      T.3.e.W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 C8 19 9D  F6 FB 67 A5  54                                      T.....g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A7 2B 7A  ED FB 77 A5  54                                      T.+z..w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 14 D3 6F  E4 FB 87 A5  54                                      T..o....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8F 58 A1  2C FB 97 A5  54                                      T.X.,...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 EA CE 53  FB FB A7 A5  54                                      T..S....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 22 BF 7C  85 FB B7 A5  54                                      T".|....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E5 69 83  9D FB C7 A5  54                                      T.i.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 2B A5 F7  19 FB D7 A5  54                                      T+......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 04 BA 59  54 FB E7 A5  54                                      T..YT...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E2 32 03  24 FB F7 A5  54                                      T.2.$...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FB F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BB BB 3B  C8 FC 07 A5  54                                      T..;....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 10 7A 5D  D4 FC 17 A5  54                                      T.z]....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7A 78 EC  08 FC 27 A5  54                                      Tzx...'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7B CA A6  10 FC 37 A5  54                                      T{....7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3B FC DC  33 FC 47 A5  54                                      T;..3.G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 7D 29 52  96 FC 57 A5  54                                      T})R..W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 9E F6 07  69 FC 67 A5  54                                      T...i.g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 8E 60 BC  64 FC 77 A5  54                                      T.`.d.w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 D2 BA E0  FE FC 87 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 89 FA 71  9E FC 97 A5  54                                      T..q....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 B4 E9 DB  54 FC A7 A5  54                                      T...T...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 08 B4 4A  75 FC B7 A5  54                                      T..Ju...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 60 B2 C4  3E FC C7 A5  54                                      T`..>...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 A0 B6 77  10 FC D7 A5  54                                      T..w....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 30 17 E3  38 FC E7 A5  54                                      T0..8...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E2 4A 66  FB FC F7 A5  54                                      T.Jf....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FC F7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 9F 7D 9A  D6 FD 07 A5  54                                      T.}.....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 07 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 5F B9 31  1B FD 17 A5  54                                      T_.1....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 17 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 54 27 79  3D FD 27 A5  54                                      TT'y=.'.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 27 01                                             6....'.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 3B FF D1  EB FD 37 A5  54                                      T;....7.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 37 01                                             6....7.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 70 5D C1  A6 FD 47 A5  54                                      Tp]...G.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 47 01                                             6....G.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E6 B3 44  1B FD 57 A5  54                                      T..D..W.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 57 01                                             6....W.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 62 48 62  80 FD 67 A5  54                                      TbHb..g.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 67 01                                             6....g.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F4 48 F1  7A FD 77 A5  54                                      T.H.z.w.T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 77 01                                             6....w.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 19 D9 75  BF FD 87 A5  54                                      T..u....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 87 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 F9 0E 0C  D7 FD 97 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD 97 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 DD E0 04  B9 FD A7 A5  54                                      T.......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD A7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 E8 34 A4  56 FD B7 A5  54                                      T.4.V...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD B7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 1F 5E 6A  8E FD C7 A5  54                                      T.^j....T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD C7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 29 A6 2E  C7 FD D7 A5  54                                      T)......T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD D7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 BE D0 B2  5F FD E7 A5  54                                      T..._...T
+
+[EMU] FT_Write: 7
+36 07 04 11  FD E7 01                                             6......
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 9
+
+FT_GetQueueStatus: 9
+
+[EMU] FT_Read: 9
+54 26 C3 BD  8C FD F7 A5  54                                      T&......T
+
+[EMU] FT_Write: 4
+36 01 01 50                                                       6..P
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 3
+
+FT_GetQueueStatus: 3
+
+[EMU] FT_Read: 3
+54 5A 54                                                          TZT
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+31                                                                1
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+54                                                                T
+
+FT_Write: 1
+39                                                                9
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+3E                                                                >
+
+FT_Write: 1
+45                                                                E
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 58
+
+FT_GetQueueStatus: 65
+
+FT_GetQueueStatus: 65
+
+FT_Read: 65
+12 F8 FE FF  00 00 00 00  00 10 18 02  39 00 00 DE  A1 B2 EF 30   ............9......0
+0F 30 35 2E  35 35 35 35  00 22 1B 01  00 00 00 00  E1 07 00 00   .05.5555."..........
+00 00 01 00  00 00 09 80  00 A6 BB 05  07 00 00 00  F9 01 00 00   ....................
+00 5F 04 80  D6                                                   ._...
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetModemStatus: 0x60E0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 2
+42 10                                                             B.
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_Write: 1
+58                                                                X
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+5A                                                                Z
+
+FT_Write: 1
+32                                                                2
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 1
+
+FT_GetQueueStatus: 1
+
+FT_Read: 1
+72                                                                r
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+FT_GetQueueStatus: 0
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
+Device IO Control InBuffer: 12
+00 00 00 00  00 00 00 00  00 00 00 00                             ............
+
+Device IO Control Original OutBuffer: 548
+28 00 00 00  9C 00 00 00  00 00 00 00  00 00 00 00  4C 00 00 00   (...............L...
+6A 00 00 00  88 00 00 00  03 00 00 00  24 00 00 00  00 00 00 00   j...........$.......
+00 00 00 00  00 00 00 00  56 4D 77 61  72 65 20 56  69 72 74 75   ........VMware Virtu
+61 6C 20 49  44 45 20 48  20 20 20 20  30 30 30 30  56 4D 77 61   al IDE H    0000VMwa
+72 65 20 56  69 72 74 75  61 6C 20 49  44 45 20 48  61 72 64 20   re Virtual IDE Hard 
+44 72 69 76  65 00 30 30  30 30 30 30  30 31 00 33  30 33 30 33   Drive.00000001.30303
+30 33 30 33  30 33 30 33  30 33 30 33  30 33 30 00  33 30 33 30   030303030303030.3030
+33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30  33 30 33 30   30303030303030303030
+33 30 33 30  33 30 33 30  33 30 33 30  33 31 33 30  00 00 00 00   3030303030303130....
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00   ....................
+00 00 00 00  00 00 00 00                                          ........
+
+Device IO Control BytesReturned: 177
+
+CreateFileA: Emulating only 1 PhysicalDrive
+
