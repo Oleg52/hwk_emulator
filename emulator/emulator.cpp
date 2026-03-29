@@ -16,6 +16,7 @@ enum ReadRequestType
 	HwkChecksSetupEnd,
 	ReadBoxDataWithBitsEmulation,
 	EmulateShortHwkResponseBits,
+	ReadFirstByte,
 	ReadNextByte,
 	FullHwkResponseEmulation,
 	Unknown
@@ -259,6 +260,15 @@ FT_READ_EMU_READ_EXIT:
 		g_GetQueueStatuHookEnabled = false;
 		g_ResponseBufferLength = 0;
 		return 0;
+	}
+	else if (g_ReadRequestType == ReadFirstByte)
+	{
+		g_EmulateBoxDataHwkBits = true;
+		buffer[0] = g_ResponseBuffer[0];
+		if (dwBytesToRead) dwBytesToRead = 1;
+		*lpdwBytesReturned = dwBytesToRead;
+		g_ResponseBufferLength--;
+		goto FT_READ_EMU_READ_EXIT;
 	}
 	else if (g_ReadRequestType == FullHwkResponseEmulation)
 	{
@@ -704,6 +714,45 @@ CASE_HWK_SETUP_END:
 		g_ResponseBufferLength = 1;
 		g_ReadRequestType = ReadNextByte;
 		*lpdwBytesWritten = dwBytesToWrite;
+
+		goto FT_WRITE_EMU_EXIT;
+	}
+	// TODO
+	/*else if (buffer[0] == 0x33) // seems unused, or maybe used in very old versions
+	{
+
+	}*/
+	else if (buffer[0] == 0x34)		// seems unused, or maybe used in very old versions
+	{
+		g_GetQueueStatuReturnDelay = 2;
+		g_ReadRequestType = FullHwkResponseEmulation;
+		*lpdwBytesWritten = dwBytesToWrite;
+
+		int hwkDataOffset = buffer[2];
+		int hwkDataLength = buffer[3];
+		if ( !hwkDataLength ) hwkDataLength = 256;
+
+		memcpy(g_ResponseBuffer, HWK_CHECKS_BUFFER + hwkDataOffset, hwkDataLength);
+
+		g_ResponseBuffer[hwkDataLength] = 0xA5;
+		g_ResponseBufferLength = hwkDataLength + 1;
+
+		goto FT_WRITE_EMU_EXIT;
+	}
+	else if (buffer[0] == 0x35)		// seems unused, or maybe used in very old versions
+	{
+		g_GetQueueStatuReturnDelay = 2;
+		g_ReadRequestType = ReadFirstByte;
+		*lpdwBytesWritten = dwBytesToWrite;
+
+		int hwkDataOffset = buffer[2];
+		int hwkDataLength = buffer[3];
+		if ( !hwkDataLength ) hwkDataLength = 0;
+
+		memcpy(HWK_CHECKS_BUFFER + hwkDataOffset, buffer + 4, hwkDataLength);
+
+		g_ResponseBuffer[0] = 0xA5;
+		g_ResponseBufferLength = 1;
 
 		goto FT_WRITE_EMU_EXIT;
 	}
