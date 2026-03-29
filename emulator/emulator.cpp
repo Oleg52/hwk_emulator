@@ -382,8 +382,54 @@ FT_READ_EMU_READ_EXIT:
 	return ret;
 }
 
+static const int NUM_ACTIVATION_FALLBACK_VALUES = 9;
+static const int ACTIVATION_FALLBACK_VALUE_LENGTH = 6;
+static const BYTE SOFTWARE_ACTIVATION_FALLBACK_VALUES[NUM_ACTIVATION_FALLBACK_VALUES][ACTIVATION_FALLBACK_VALUE_LENGTH] = {
+    { 0x1D, 0x1D, 0x1F, 0x02, 0x0D, 0x98 },
+    { 0xDC, 0x3E, 0x28, 0x6A, 0x0D, 0x47 },
+    { 0xDC, 0x3E, 0x28, 0x6A, 0x0C, 0x48 },
+    { 0xD9, 0x43, 0x6D, 0x24, 0x02, 0x51 },
+    { 0xD9, 0x43, 0x6D, 0x24, 0x01, 0x52 },
+    { 0x8C, 0xEF, 0x91, 0xF1, 0x06, 0xFD },
+    { 0x8C, 0xEF, 0x91, 0xF1, 0x05, 0xFE },
+    { 0x45, 0x52, 0x41, 0x54, 0x01, 0xD3 },
+    { 0x45, 0x52, 0x41, 0x54, 0x02, 0xD2 }
+};
+
 typedef FT_STATUS (__stdcall *FT_Write_t)(FT_HANDLE, void*, DWORD, unsigned int*);
 FT_Write_t FT_WriteOrigFunc = NULL;
+
+BOOL InitBoxSoftwareActivationLicence(FT_HANDLE ftHandle)
+{
+	BYTE writeBuffer[7];
+	BYTE readBuffer[1];
+	writeBuffer[0] = 0x4C;
+	unsigned int bytesWritten;
+	unsigned int amountInQueue;
+
+	for (int i = 0; i < NUM_ACTIVATION_FALLBACK_VALUES; i++)
+    {
+		memcpy(writeBuffer + 1, SOFTWARE_ACTIVATION_FALLBACK_VALUES[i], ACTIVATION_FALLBACK_VALUE_LENGTH);
+		
+		FT_WriteOrigFunc(ftHandle, (void*)writeBuffer, 7 ,&bytesWritten);
+		LogBufferToFile("[EMU] FT_Write", (void*)writeBuffer, bytesWritten);
+
+		amountInQueue = 0;
+		while (amountInQueue != 1)
+		{
+			FT_GetQueueStatusOrigFunc(ftHandle, &amountInQueue);
+		}
+
+		FT_ReadOrigFunc(ftHandle, readBuffer, 1, &amountInQueue);
+		LogBufferToFile("[EMU] FT_Read", (void*)readBuffer, 1);
+		if (readBuffer[0] == 0x3E)
+		{
+			return true;
+		}
+    }
+
+	return false;
+}
 
 FT_STATUS __stdcall FT_Write_Hook(
 	FT_HANDLE ftHandle,
@@ -516,26 +562,30 @@ FT_STATUS __stdcall FT_Write_Hook(
 	}
 	else if (dwBytesToWrite == 7 && buffer[0] == 0x4C) // software licence
 	{
-		g_ReadRequestType = SoftwareLicenceRead;
-		if (g_PrevReadRequestType != SoftwareLicenceRead)
+		if (g_PrevReadRequestType == SoftwareLicenceRead)
 		{
-			buffer[1] = 0x4D;
-			buffer[2] = 0x54;
-			buffer[3] = 0x31;
-			buffer[4] = 0x39;
-			buffer[5] = 0x06;
-			buffer[6] = 0xEF;
-		}
-		else
-		{
-			buffer[1] = 0x1D;
-			buffer[2] = 0x1D;
-			buffer[3] = 0x1F;
-			buffer[4] = 0x02;
-			buffer[5] = 0x0D;
-			buffer[6] = 0x98;
+			BOOL hasInitialized = InitBoxSoftwareActivationLicence(ftHandle);
+			if (hasInitialized)
+			{
+				g_ReadRequestType = ReadFirstByte;
+				g_ResponseBuffer[0] = 0x3E;
+				g_ResponseBufferLength = 1;
+				*lpdwBytesWritten = dwBytesToWrite;
+				g_GetQueueStatuReturnDelay = 3;
+				g_GetQueueStatuHookEnabled = true;
+				return 0;
+			}
+
+			goto CALL_FT_WRITE;
 		}
 
+		g_ReadRequestType = SoftwareLicenceRead;
+		buffer[1] = 0x4D;
+		buffer[2] = 0x54;
+		buffer[3] = 0x31;
+		buffer[4] = 0x39;
+		buffer[5] = 0x06;
+		buffer[6] = 0xEF;
 		goto CALL_FT_WRITE;
 	}
 
