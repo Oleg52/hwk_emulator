@@ -473,7 +473,7 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 4;
 		goto CALL_FT_WRITE;
 	}
-	else if (buffer[0] == 0x3C && buffer[1] == 0x3A && buffer[2] == 0xC9)
+	else if (dwBytesToWrite == 3 && buffer[0] == 0x3C && buffer[1] == 0x3A && buffer[2] == 0xC9)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0x0C;
@@ -484,7 +484,7 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 4;
 		goto CALL_FT_WRITE;
 	}
-	else if (buffer[0] == 0x44 && buffer[3] == 0x17)
+	else if (dwBytesToWrite == 2 && buffer[0] == 0x44 && buffer[3] == 0x17)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0xF0;
@@ -496,7 +496,7 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 5;
 		goto CALL_FT_WRITE;
 	}
-	else if (buffer[0] == 0x44 && buffer[1] == 0x18 && buffer[3] == 0x08)
+	else if (dwBytesToWrite == 2 && buffer[0] == 0x44 && buffer[1] == 0x18 && buffer[3] == 0x08)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0xF6;
@@ -508,7 +508,7 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 5;
 		goto CALL_FT_WRITE;
 	}
-	else if (buffer[0] == 0x44 && buffer[3] == 0x08)
+	else if (dwBytesToWrite == 2 && buffer[0] == 0x44 && buffer[3] == 0x08)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0x7A;
@@ -520,7 +520,7 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 5;
 		goto CALL_FT_WRITE;
 	}
-	else if (buffer[0] == 0x55 && buffer[1] == 0x14)
+	else if (dwBytesToWrite == 2 && buffer[0] == 0x55 && buffer[1] == 0x14)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0x58;
@@ -530,7 +530,7 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 3;
 		goto CALL_FT_WRITE;
 	}
-	else if (buffer[0] == 0x55 && buffer[1] == 0x15)
+	else if (dwBytesToWrite == 2 && buffer[0] == 0x55 && buffer[1] == 0x15)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0x00;
@@ -540,7 +540,7 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 3;
 		goto CALL_FT_WRITE;
 	}
-	else if (buffer[0] == 0x55 && buffer[1] == 0x05)
+	else if (dwBytesToWrite == 2 && buffer[0] == 0x55 && buffer[1] == 0x05)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0x01;
@@ -551,12 +551,21 @@ FT_STATUS __stdcall FT_Write_Hook(
 		goto CALL_FT_WRITE;
 	}
 	// box auth emulation end
-	else if (dwBytesToWrite == 1 && buffer[0] == 0x54) // box SN
+	else if (dwBytesToWrite == 1 && buffer[0] == 0x54) // EEPROM SN
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0x33;
 		g_ResponseBuffer[1] = 0xC5;
 		g_ResponseBuffer[2] = 0x08;
+		g_ResponseBufferLength = 3;
+		goto CALL_FT_WRITE;
+	}
+	else if (dwBytesToWrite == 2 && buffer[0] == 0x55 && buffer[1] == 0x1C) // SN extension
+	{
+		g_ReadRequestType = EmulateAfterReadCall;
+		g_ResponseBuffer[0] = 0x0;
+		g_ResponseBuffer[1] = 0x1;
+		g_ResponseBuffer[2] = 0xFF;
 		g_ResponseBufferLength = 3;
 		goto CALL_FT_WRITE;
 	}
