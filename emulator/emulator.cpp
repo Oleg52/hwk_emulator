@@ -1193,7 +1193,11 @@ BOOL HookFunction(
 
 	VirtualProtect(targetFunc, origFuncBufferLength, PAGE_EXECUTE_READWRITE, &oldProtect);
 
-	for (SIZE_T i = 0; i < origFuncBufferLength; i++)
+	LogToFile("Function %s signature:", funcName);
+	LogBufferToFile("Buffer:", (void*)targetFunc, 10);
+
+	SIZE_T i;
+	for (i = 0; i < origFuncBufferLength; i++)
 	{
 		if (origFuncEntryBytes[i] != 0xFF && origFuncEntryBytes[i] != targetFunc[i])
 		{
@@ -1215,7 +1219,16 @@ BOOL HookFunction(
 	);
 	*origFuncPtr = (void*)trampoline;
 	memcpy(trampoline, targetFunc, origFuncBufferLength);
-	
+
+	// if something has already patched function with JMP, recalculate target
+	if (trampoline[0] == 0xE9 && origFuncBufferLength >= 5)
+	{
+		DWORD origRel = *(DWORD*)(trampoline + 1);
+		BYTE* origTarget = targetFunc + 5 + (LONG)origRel;
+		DWORD newRel = origTarget - (trampoline + 5);
+		*(DWORD*)(trampoline + 1) = newRel;
+	}
+
 	DWORD jmpBackToOrigFuncAddr = (DWORD)(targetFunc + origFuncBufferLength);
 	DWORD relativeJmpBack = jmpBackToOrigFuncAddr - ((DWORD)(trampoline + origFuncBufferLength) + 5);
 	
@@ -1302,9 +1315,12 @@ void InstallHooks()
 	BYTE DeviceIoControlBytes[] = {0x6A, 0xFF, 0x68, 0xFF, 0xFF, 0xFF, 0xFF};
 	BYTE DeviceIoControlBytesFallback[] = {0x8B, 0xFF, 0x55, 0x8B, 0xFF};
 	BYTE CreateFileABytes[] = {0x8B, 0xFF, 0x55, 0x8B, 0xFF};
+	BYTE CreateFileABytesFallback[] = {0xE9, 0xFF, 0xFF, 0xFF, 0xFF};
 
 	BOOL hookedDeviceIoControl = false;
 	BOOL hookedCreateFileA = false;
+
+	static const char* BadSystemError = "Bad system. Failed to hook %s. Clean system or try on different Windows version.";
 
 	hModule = GetModuleHandleA("kernelbase.dll");
 	if (hModule)
@@ -1320,6 +1336,12 @@ void InstallHooks()
 
 		hookedCreateFileA = HookFunction(hModule, "CreateFileA", CreateFileABytes, sizeof(CreateFileABytes),
 			(void**)&CreateFileAOrigFuncKBase, (void*)CreateFileA_KBaseHook, false);
+
+		if (!hookedCreateFileA)
+		{
+			hookedCreateFileA = HookFunction(hModule, "CreateFileA", CreateFileABytesFallback, sizeof(CreateFileABytesFallback),
+			(void**)&CreateFileAOrigFuncKBase, (void*)CreateFileA_KBaseHook, false);
+		}
 	}
 
 	hModule = GetModuleHandleA("kernel32.dll");
@@ -1335,16 +1357,22 @@ void InstallHooks()
 			
 			if (!success && !hookedDeviceIoControl)
 			{
-				ShowErrorMessageAndTerminate("Bad system. Failed to hook %s", "DeviceIoControl");
+				ShowErrorMessageAndTerminate(BadSystemError, "DeviceIoControl");
 			}
 		}
 
 		success = HookFunction(hModule, "CreateFileA", CreateFileABytes, sizeof(CreateFileABytes),
 			(void**)&CreateFileAOrigFuncK32, (void*)CreateFileA_K32Hook, false);
-		
-		if (!success && !hookedCreateFileA)
+
+		if (!success)
 		{
-			ShowErrorMessageAndTerminate("Bad system. Failed to hook %s", "CreateFileA");
+			success = HookFunction(hModule, "CreateFileA", CreateFileABytesFallback, sizeof(CreateFileABytesFallback),
+			(void**)&CreateFileAOrigFuncK32, (void*)CreateFileA_K32Hook, false);
+			
+			if (!success && !hookedCreateFileA)
+			{
+				ShowErrorMessageAndTerminate(BadSystemError, "CreateFileA");
+			}
 		}
 	}
 
