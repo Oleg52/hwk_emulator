@@ -473,13 +473,35 @@ FT_STATUS __stdcall FT_Write_Hook(
 		g_ResponseBufferLength = 4;
 		goto CALL_FT_WRITE;
 	}
-	else if (dwBytesToWrite == 3 && buffer[0] == 0x3C && buffer[1] == 0x3A && buffer[2] == 0xC9)
+	else if (dwBytesToWrite == 12 && buffer[0] == 0x3C && buffer[1] == 0x3A && buffer[2] == 0xC9)
 	{
 		g_ReadRequestType = EmulateAfterReadCall;
 		g_ResponseBuffer[0] = 0x0C;
 		g_ResponseBuffer[1] = 0xA7;
 		g_ResponseBuffer[2] = 0x3C;
 		g_ResponseBuffer[3] = 0xAD; 
+		*lpdwBytesWritten = dwBytesToWrite;
+		g_ResponseBufferLength = 4;
+		goto CALL_FT_WRITE;
+	}
+	else if (dwBytesToWrite == 3 && buffer[0] == 0x71 && buffer[1] == 0x12)
+	{
+		g_ReadRequestType = EmulateAfterReadCall;     
+		g_ResponseBuffer[0] = 0x06;
+		g_ResponseBuffer[1] = 0x9B;
+		g_ResponseBuffer[2] = 0xE5;
+		g_ResponseBuffer[3] = 0xAB; 
+		*lpdwBytesWritten = dwBytesToWrite;
+		g_ResponseBufferLength = 4;
+		goto CALL_FT_WRITE;
+	}
+	else if (dwBytesToWrite == 3 && buffer[0] == 0x71 && buffer[1] == 0x0c)
+	{
+		g_ReadRequestType = EmulateAfterReadCall;
+		g_ResponseBuffer[0] = 0x06;
+		g_ResponseBuffer[1] = 0x9B;
+		g_ResponseBuffer[2] = 0xE5;
+		g_ResponseBuffer[3] = 0xAB; 
 		*lpdwBytesWritten = dwBytesToWrite;
 		g_ResponseBufferLength = 4;
 		goto CALL_FT_WRITE;
