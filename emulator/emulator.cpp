@@ -1,6 +1,7 @@
 #include <windows.h>
 #include "logging.h"
 #include "hwk_buffers.h"
+#include "hook_helper.h"
 
 typedef unsigned int FT_STATUS;
 typedef void* FT_HANDLE;
@@ -129,7 +130,8 @@ FT_STATUS __stdcall FT_ListDevices_Hook(
 	
 	if (dwFlags == 0x40000001) // FT_LIST_BY_INDEX | FT_OPEN_BY_SERIAL_NUMBER
 	{
-		LogToFile("FT_ListDevices: Emulating SN %s", EMULATED_BOX_SN);
+		strcpy(ORIGINAL_SN, (char*)pvArg2);
+		LogToFile("FT_ListDevices: Original SN: %s , Emulating: %s", ORIGINAL_SN, EMULATED_BOX_SN);
 		strcpy((char*)pvArg2, EMULATED_BOX_SN);
 	}
 
@@ -1178,240 +1180,26 @@ BOOL WINAPI DeviceIoControl_K32Hook(
     return result;
 }
 
-void ShowErrorMessageAndTerminate(const char* format, const char* funcName)
-{
-    char buffer[256];
-    wsprintfA(buffer, format, funcName);
-    MessageBoxA(NULL, buffer, "Error", MB_OK | MB_ICONERROR);
-	TerminateProcess(GetCurrentProcess(), 1);
-}
-
-BOOL HookFunction(
-	HMODULE hModule,
-	const char* funcName,
-	BYTE* origFuncEntryBytes,
-	SIZE_T origFuncBufferLength,
-	void** origFuncPtr,
-	void* destHookFuncPtr,
-	BOOL terminateOnFail = true
-)
-{
-	DWORD oldProtect;
-	const DWORD jmpLength = 5;
-	
-	BYTE* targetFunc = (BYTE*)GetProcAddress(hModule, funcName);
-	if (!targetFunc)
-	{
-		LogToConsole("Bad driver. GetProcAddress failed for function %s", funcName);
-		if (terminateOnFail)
-		{
-			ShowErrorMessageAndTerminate("Bad driver. GetProcAddress failed for function %s", funcName);
-		}
-
-		return false;
-	}
-
-	LogToConsole("%s found at %p", funcName, targetFunc);
-
-	VirtualProtect(targetFunc, origFuncBufferLength, PAGE_EXECUTE_READWRITE, &oldProtect);
-
-	LogToFile("Function %s signature:", funcName);
-	LogBufferToFile("Buffer:", (void*)targetFunc, 10);
-
-	SIZE_T i;
-	for (i = 0; i < origFuncBufferLength; i++)
-	{
-		if (origFuncEntryBytes[i] != 0xFF && origFuncEntryBytes[i] != targetFunc[i])
-		{
-			LogToConsole("Bad driver. %s signature mismatch", funcName);
-			if (terminateOnFail)
-			{
-				ShowErrorMessageAndTerminate("Bad driver. %s signature mismatch", funcName);
-			}
-
-			return false;
-		}
-	}
-
-	BYTE* trampoline = (BYTE*)VirtualAlloc(
-		NULL,
-		origFuncBufferLength + jmpLength,
-		MEM_COMMIT | MEM_RESERVE,
-		PAGE_EXECUTE_READWRITE
-	);
-	*origFuncPtr = (void*)trampoline;
-	memcpy(trampoline, targetFunc, origFuncBufferLength);
-
-	// if something has already patched function with JMP, recalculate target
-	if (trampoline[0] == 0xE9 && origFuncBufferLength >= 5)
-	{
-		DWORD origRel = *(DWORD*)(trampoline + 1);
-		BYTE* origTarget = targetFunc + 5 + (LONG)origRel;
-		DWORD newRel = origTarget - (trampoline + 5);
-		*(DWORD*)(trampoline + 1) = newRel;
-	}
-
-	DWORD jmpBackToOrigFuncAddr = (DWORD)(targetFunc + origFuncBufferLength);
-	DWORD relativeJmpBack = jmpBackToOrigFuncAddr - ((DWORD)(trampoline + origFuncBufferLength) + 5);
-	
-	trampoline[origFuncBufferLength] = 0xE9; // JMP
-	*(DWORD*)(trampoline + origFuncBufferLength + 1) = relativeJmpBack;
-
-	DWORD tmpProtect;
-	
-	VirtualProtect(trampoline, origFuncBufferLength + jmpLength, PAGE_EXECUTE_READWRITE, &tmpProtect);
-
-	LogToConsole("Hooked %s at %p", funcName, trampoline);
-	
-	DWORD relativeJmpToHookFunc = (DWORD)destHookFuncPtr - ((DWORD)targetFunc + 5);
-	
-	targetFunc[0] = 0xE9; // JMP
-    *(DWORD*)(targetFunc + 1) = relativeJmpToHookFunc;
-
-	for (i = 5; i < origFuncBufferLength; i++)
-	{
-		targetFunc[i] = 0x90; // nop
-	}
-
-	VirtualProtect(targetFunc, origFuncBufferLength, oldProtect, &oldProtect);
-
-	LogToConsole("Hook for %s installed successfully", funcName);
-	return true;
-}
-
 void InstallHooks()
 {
-    HMODULE hModule = NULL;
-	BYTE waitCount = 0;
-
-    LogToConsole("Waiting for UFS2XX.dll...");
-
-    while (!hModule && waitCount < 200) // wait 20 secs
-    {
-        hModule = GetModuleHandleA("UFS2XX.dll");
-		waitCount++;
-        Sleep(100);
-    }
-
+    HMODULE hModule = LoadLibraryA("UFS2XX.dll");
 	if (!hModule)
 	{
-		ShowErrorMessageAndTerminate("Timeout waiting for %s", "UFS2XX.dll");
+		ShowErrorMessageAndTerminate("Failed to load %s", "UFS2XX.dll");
 		return;
 	}
 
-    LogToConsole("DLL loaded at %p", hModule);
+	EatHookFunction(hModule, "FT_Read", (void**)&FT_ReadOrigFunc, (void*)FT_Read_Hook, TRUE);
+	EatHookFunction(hModule, "FT_Write", (void**)&FT_WriteOrigFunc, (void*)FT_Write_Hook, TRUE);
+	EatHookFunction(hModule, "FT_GetModemStatus", (void**)&FT_GetModemStatusOrigFunc, (void*)FT_GetModemStatus_Hook, TRUE);
+	EatHookFunction(hModule, "FT_GetQueueStatus", (void**)&FT_GetQueueStatusOrigFunc, (void*)FT_GetQueueStatus_Hook, TRUE);
+	EatHookFunction(hModule, "FT_Purge", (void**)&FT_PurgeOrigFunc, (void*)FT_Purge_Hook, TRUE);
+	EatHookFunction(hModule, "FT_GetDeviceInfo", (void**)&FT_GetDeviceInfoOrigFunc, (void*)FT_GetDeviceInfo_Hook, TRUE);
+	EatHookFunction(hModule, "FT_ListDevices", (void**)&FT_ListDevicesOrigFunc, (void*)FT_ListDevices_Hook, TRUE);
+	EatHookFunction(hModule, "FT_OpenEx", (void**)&FT_OpenExOrigFunc, (void*)FT_OpenEx_Hook, TRUE);
 
-	BYTE readEntryBytes[] = {0x57, 0x8B, 0x7C, 0x24, 0x08};
-	HookFunction(hModule, "FT_Read", readEntryBytes, sizeof(readEntryBytes),
-		(void**)&FT_ReadOrigFunc, (void*)FT_Read_Hook);
-
-	BYTE writeEntryBytes[] = {0x57, 0x8B, 0x7C, 0x24, 0x08};
-	HookFunction(hModule, "FT_Write", writeEntryBytes, sizeof(writeEntryBytes),
-		(void**)&FT_WriteOrigFunc, (void*)FT_Write_Hook);
-
-	BYTE getModemStatusEntryBytes[] = {0x8B, 0x4C, 0x24, 0x04, 0x6A, 0};
-	HookFunction(hModule, "FT_GetModemStatus", getModemStatusEntryBytes, sizeof(getModemStatusEntryBytes),
-		(void**)&FT_GetModemStatusOrigFunc, (void*)FT_GetModemStatus_Hook);
-
-	BYTE getQueueStatusEntryBytes[] = {0x8B, 0x4C, 0x24, 0x04, 0x6A, 0};
-	HookFunction(hModule, "FT_GetQueueStatus", getQueueStatusEntryBytes, sizeof(getQueueStatusEntryBytes),
-		(void**)&FT_GetQueueStatusOrigFunc, (void*)FT_GetQueueStatus_Hook);
-
-	BYTE purgeEntryBytes[] = {0x8B, 0x54, 0x24, 0x04, 0x6A, 0};
-	HookFunction(hModule, "FT_Purge", purgeEntryBytes, sizeof(purgeEntryBytes),
-		(void**)&FT_PurgeOrigFunc, (void*)FT_Purge_Hook);
-
-	BYTE getDeviceInfoEntryBytes[] = {0x83, 0xEC, 0x70, 0xA1, 0xFF, 0xFF, 0xFF, 0xFF};
-	HookFunction(hModule, "FT_GetDeviceInfo", getDeviceInfoEntryBytes, sizeof(getDeviceInfoEntryBytes),
-		(void**)&FT_GetDeviceInfoOrigFunc, (void*)FT_GetDeviceInfo_Hook);
-
-	BYTE listDevicesEntryBytes[] = {0x81, 0xEC, 0x84, 0x0, 0x0, 0x0};
-	HookFunction(hModule, "FT_ListDevices", listDevicesEntryBytes, sizeof(listDevicesEntryBytes),
-		(void**)&FT_ListDevicesOrigFunc, (void*)FT_ListDevices_Hook);
-
-	BYTE openExEntryBytes[] = {0x83, 0xEC, 0x70, 0xA1, 0xFF, 0xFF, 0xFF, 0xFF};
-	HookFunction(hModule, "FT_OpenEx", openExEntryBytes, sizeof(openExEntryBytes),
-		(void**)&FT_OpenExOrigFunc, (void*)FT_OpenEx_Hook);
-
-
-	BYTE DeviceIoControlBytes[] = {0x6A, 0xFF, 0x68, 0xFF, 0xFF, 0xFF, 0xFF};
-	BYTE DeviceIoControlBytesFallback[] = {0x8B, 0xFF, 0x55, 0x8B, 0xFF};
-	BYTE CreateFileABytes[] = {0x8B, 0xFF, 0x55, 0x8B, 0xFF};
-	BYTE CreateFileABytesFallback[] = {0xE9, 0xFF, 0xFF, 0xFF, 0xFF};
-
-	BOOL hookedDeviceIoControl = false;
-	BOOL hookedCreateFileA = false;
-
-	static const char* BadSystemError = "Bad system. Failed to hook %s. Clean system or try on different Windows version.";
-
-	hModule = GetModuleHandleA("kernelbase.dll");
-	if (hModule)
-	{
-		hookedDeviceIoControl = HookFunction(hModule, "DeviceIoControl", DeviceIoControlBytes, sizeof(DeviceIoControlBytes),
-			(void**)&DeviceIoControlOrigFuncKBase, (void*)DeviceIoControl_KBaseHook, false);
-
-		if (!hookedDeviceIoControl)
-		{
-			hookedDeviceIoControl = HookFunction(hModule, "DeviceIoControl", DeviceIoControlBytesFallback, sizeof(DeviceIoControlBytesFallback),
-				(void**)&DeviceIoControlOrigFuncKBase, (void*)DeviceIoControl_KBaseHook, false);
-		}
-
-		hookedCreateFileA = HookFunction(hModule, "CreateFileA", CreateFileABytes, sizeof(CreateFileABytes),
-			(void**)&CreateFileAOrigFuncKBase, (void*)CreateFileA_KBaseHook, false);
-
-		if (!hookedCreateFileA)
-		{
-			hookedCreateFileA = HookFunction(hModule, "CreateFileA", CreateFileABytesFallback, sizeof(CreateFileABytesFallback),
-			(void**)&CreateFileAOrigFuncKBase, (void*)CreateFileA_KBaseHook, false);
-		}
-	}
-
-	hModule = GetModuleHandleA("kernel32.dll");
-	if (hModule)
-	{
-		BOOL success = HookFunction(hModule, "DeviceIoControl", DeviceIoControlBytes, sizeof(DeviceIoControlBytes),
-			(void**)&DeviceIoControlOrigFuncK32, (void*)DeviceIoControl_K32Hook, false);
-
-		if (!success)
-		{
-			success = HookFunction(hModule, "DeviceIoControl", DeviceIoControlBytesFallback, sizeof(DeviceIoControlBytesFallback),
-				(void**)&DeviceIoControlOrigFuncK32, (void*)DeviceIoControl_K32Hook, false);
-			
-			if (!success && !hookedDeviceIoControl)
-			{
-				ShowErrorMessageAndTerminate(BadSystemError, "DeviceIoControl");
-			}
-		}
-
-		success = HookFunction(hModule, "CreateFileA", CreateFileABytes, sizeof(CreateFileABytes),
-			(void**)&CreateFileAOrigFuncK32, (void*)CreateFileA_K32Hook, false);
-
-		if (!success)
-		{
-			success = HookFunction(hModule, "CreateFileA", CreateFileABytesFallback, sizeof(CreateFileABytesFallback),
-			(void**)&CreateFileAOrigFuncK32, (void*)CreateFileA_K32Hook, false);
-			
-			if (!success && !hookedCreateFileA)
-			{
-				ShowErrorMessageAndTerminate(BadSystemError, "CreateFileA");
-			}
-		}
-	}
-
-	LogToConsole("InstallHook finished successfully");
-}
-
-DWORD WINAPI ThreadProc(LPVOID lp)
-{
-	InitConsole();
-	LogToConsole("DLL injected successfully");
-
-	memset(HWK_E_RANGE_XOR_TABLE, 0x80, sizeof(HWK_E_RANGE_XOR_TABLE));
-	memset(STORAGE_BUFFER2, 0, sizeof(STORAGE_BUFFER2));
-
-	InstallHooks();
-
-	return 0;
+	IatHookFunction("kernel32.dll", "DeviceIoControl", (void**)&DeviceIoControlOrigFuncK32, (void*)DeviceIoControl_K32Hook, FALSE);
+	IatHookFunction("kernel32.dll", "CreateFileA", (void**)&CreateFileAOrigFuncK32, (void*)CreateFileA_K32Hook, TRUE);
 }
 
 BOOL APIENTRY DllMain(
@@ -1421,8 +1209,9 @@ BOOL APIENTRY DllMain(
 {
 	if (fdwReason == DLL_PROCESS_ATTACH)
 	{
-		DisableThreadLibraryCalls(hinstDLL);
-		CreateThread(NULL, 0, ThreadProc, NULL, 0, NULL);
+		memset(HWK_E_RANGE_XOR_TABLE, 0x80, sizeof(HWK_E_RANGE_XOR_TABLE));
+		memset(STORAGE_BUFFER2, 0, sizeof(STORAGE_BUFFER2));
+		InstallHooks();
 	}
 
 	return TRUE;
