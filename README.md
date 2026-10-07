@@ -4,7 +4,7 @@ This project emulates communication between box and UFS tools so they work witho
 
 Since HWK server is not working anymore(or extremly rare) this is the only solution to use latest UFS tools.
 
-Full UFS HWK Suite is available on [GDrive](findings/https://drive.google.com/file/d/1DDz4ytmmgGYQHYRLzGieXJnuD4TY94XT/view?usp=sharing) (password 1)
+Full UFS HWK Suite is available on [GDrive](https://drive.google.com/file/d/1DDz4ytmmgGYQHYRLzGieXJnuD4TY94XT/view?usp=sharing) (password 1)
 
 ## Build Environment
 
