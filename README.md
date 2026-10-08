@@ -10,7 +10,7 @@ Full UFS HWK Suite is available on [GDrive](https://drive.google.com/file/d/1DDz
 
 This project is built using Microsoft Visual Studio 6.0 (VS6).
 
-Emulator project compiles into DLL that is injected using emulator injector project.
+Emulator project compiles into winmm.dll that is loaded by app.
 
 ## What does it emulate?
 

@@ -94,11 +94,19 @@ SOURCE=.\emulator.cpp
 # End Source File
 # Begin Source File
 
+SOURCE=.\emulator.def
+# End Source File
+# Begin Source File
+
 SOURCE=.\hook_helper.cpp
 # End Source File
 # Begin Source File
 
 SOURCE=.\logging.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\winmm_hook.cpp
 # End Source File
 # End Group
 # Begin Group "Header Files"
@@ -115,6 +123,14 @@ SOURCE=.\hwk_buffers.h
 # Begin Source File
 
 SOURCE=.\logging.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\registry_helper.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\winmm_hook.h
 # End Source File
 # End Group
 # Begin Group "Resource Files"

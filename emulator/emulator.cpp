@@ -2,6 +2,8 @@
 #include "logging.h"
 #include "hwk_buffers.h"
 #include "hook_helper.h"
+#include "winmm_hook.h"
+#include "registry_helper.h"
 
 typedef unsigned int FT_STATUS;
 typedef void* FT_HANDLE;
@@ -1064,10 +1066,9 @@ static const BYTE DISK_INFO[] = {
 };
 
 typedef HANDLE (WINAPI *CreateFileA_t)(LPCSTR, DWORD, DWORD, LPSECURITY_ATTRIBUTES, DWORD, DWORD, HANDLE);
-CreateFileA_t CreateFileAOrigFuncKBase = NULL;
-CreateFileA_t CreateFileAOrigFuncK32 = NULL;
+CreateFileA_t CreateFileAOrigFunc = NULL;
 
-HANDLE WINAPI CreateFileA_KBaseHook(
+HANDLE WINAPI CreateFileA_Hook(
     LPCSTR lpFileName,
 	DWORD dwDesiredAccess,
 	DWORD dwShareMode,
@@ -1077,50 +1078,39 @@ HANDLE WINAPI CreateFileA_KBaseHook(
 	HANDLE hTemplateFile
 )
 {
-	if (lstrcmp(lpFileName, "\\\\.\\PhysicalDrive1") == 0 ||
-	    lstrcmp(lpFileName, "\\\\.\\PhysicalDrive2") == 0)
+	if (strcmp(lpFileName, "\\\\.\\PhysicalDrive1") == 0 ||
+	    strcmp(lpFileName, "\\\\.\\PhysicalDrive2") == 0)
 	{
 		LogToFile("CreateFileA: Emulating only 1 PhysicalDrive");
 		return INVALID_HANDLE_VALUE;
 	}
 
-    HANDLE result = CreateFileAOrigFuncKBase(lpFileName, dwDesiredAccess, dwShareMode, lpSecurityAttributes,
+    HANDLE result = CreateFileAOrigFunc(lpFileName, dwDesiredAccess, dwShareMode, lpSecurityAttributes,
         dwCreationDisposition, dwFlagsAndAttributes, hTemplateFile);
 
 	return result;
 }
 
-HANDLE WINAPI CreateFileA_K32Hook(
-    LPCSTR lpFileName,
-	DWORD dwDesiredAccess,
-	DWORD dwShareMode,
-	LPSECURITY_ATTRIBUTES lpSecurityAttributes,
-	DWORD dwCreationDisposition,
-	DWORD dwFlagsAndAttributes,
-	HANDLE hTemplateFile
-)
-{
-	if (lstrcmp(lpFileName, "\\\\.\\PhysicalDrive1") == 0 ||
-	    lstrcmp(lpFileName, "\\\\.\\PhysicalDrive2") == 0)
-	{
-		LogToFile("CreateFileA: Emulating only 1 PhysicalDrive");
-		return INVALID_HANDLE_VALUE;
-	}
+typedef BOOL (WINAPI *DeviceIoControl_t)(HANDLE, DWORD, LPVOID, DWORD, LPVOID, DWORD, LPDWORD, LPOVERLAPPED);
+DeviceIoControl_t DeviceIoControlOrigFunc = NULL;
 
-    HANDLE result = CreateFileAOrigFuncK32(lpFileName, dwDesiredAccess, dwShareMode, lpSecurityAttributes,
-        dwCreationDisposition, dwFlagsAndAttributes, hTemplateFile);
-
-	return result;
-}
-
-void ProcessDeviceIoControlResponse(
-	DWORD IoControlCode,
+BOOL WINAPI DeviceIoControl_Hook(
+    HANDLE hDevice,
+    DWORD IoControlCode,
     LPVOID InBuffer,
     DWORD InBufferSize,
     LPVOID OutBuffer,
     DWORD OutBufferSize,
-    LPDWORD BytesReturned)
+    LPDWORD BytesReturned,
+    LPOVERLAPPED Overlapped
+)
 {
+    BOOL result = DeviceIoControlOrigFunc(hDevice, IoControlCode, InBuffer, InBufferSize, OutBuffer,
+        OutBufferSize, BytesReturned, Overlapped);
+
+    if (!result)
+        return result;
+
 	if (IoControlCode == 0x2D1400 && sizeof(DISK_INFO) < OutBufferSize) // IOCTL_STORAGE_QUERY_PROPERTY
     {
 		LogBufferToFile("Device IO Control InBuffer", InBuffer, InBufferSize);
@@ -1130,52 +1120,6 @@ void ProcessDeviceIoControlResponse(
 		memcpy(OutBuffer, DISK_INFO, sizeof(DISK_INFO));
 		*BytesReturned = sizeof(DISK_INFO);
     }
-}
-
-typedef BOOL (WINAPI *DeviceIoControl_t)(HANDLE, DWORD, LPVOID, DWORD, LPVOID, DWORD, LPDWORD, LPOVERLAPPED);
-DeviceIoControl_t DeviceIoControlOrigFuncKBase = NULL;
-DeviceIoControl_t DeviceIoControlOrigFuncK32 = NULL;
-
-BOOL WINAPI DeviceIoControl_KBaseHook(
-    HANDLE hDevice,
-    DWORD IoControlCode,
-    LPVOID InBuffer,
-    DWORD InBufferSize,
-    LPVOID OutBuffer,
-    DWORD OutBufferSize,
-    LPDWORD BytesReturned,
-    LPOVERLAPPED Overlapped
-)
-{
-    BOOL result = DeviceIoControlOrigFuncKBase(hDevice, IoControlCode, InBuffer, InBufferSize, OutBuffer,
-        OutBufferSize, BytesReturned, Overlapped);
-
-    if (!result)
-        return result;
-
-	ProcessDeviceIoControlResponse(IoControlCode, InBuffer, InBufferSize, OutBuffer, OutBufferSize, BytesReturned);
-
-    return result;
-}
-
-BOOL WINAPI DeviceIoControl_K32Hook(
-    HANDLE hDevice,
-    DWORD IoControlCode,
-    LPVOID InBuffer,
-    DWORD InBufferSize,
-    LPVOID OutBuffer,
-    DWORD OutBufferSize,
-    LPDWORD BytesReturned,
-    LPOVERLAPPED Overlapped
-)
-{
-    BOOL result = DeviceIoControlOrigFuncK32(hDevice, IoControlCode, InBuffer, InBufferSize, OutBuffer,
-        OutBufferSize, BytesReturned, Overlapped);
-
-    if (!result)
-        return result;
-
-	ProcessDeviceIoControlResponse(IoControlCode, InBuffer, InBufferSize, OutBuffer, OutBufferSize, BytesReturned);
 
     return result;
 }
@@ -1198,8 +1142,8 @@ void InstallHooks()
 	EatHookFunction(hModule, "FT_ListDevices", (void**)&FT_ListDevicesOrigFunc, (void*)FT_ListDevices_Hook, TRUE);
 	EatHookFunction(hModule, "FT_OpenEx", (void**)&FT_OpenExOrigFunc, (void*)FT_OpenEx_Hook, TRUE);
 
-	IatHookFunction("kernel32.dll", "DeviceIoControl", (void**)&DeviceIoControlOrigFuncK32, (void*)DeviceIoControl_K32Hook, FALSE);
-	IatHookFunction("kernel32.dll", "CreateFileA", (void**)&CreateFileAOrigFuncK32, (void*)CreateFileA_K32Hook, TRUE);
+	IatHookFunction("kernel32.dll", "DeviceIoControl", (void**)&DeviceIoControlOrigFunc, (void*)DeviceIoControl_Hook, FALSE);
+	IatHookFunction("kernel32.dll", "CreateFileA", (void**)&CreateFileAOrigFunc, (void*)CreateFileA_Hook, TRUE);
 }
 
 BOOL APIENTRY DllMain(
@@ -1209,8 +1153,10 @@ BOOL APIENTRY DllMain(
 {
 	if (fdwReason == DLL_PROCESS_ATTACH)
 	{
+		SetupWinmmFunctions();
 		memset(HWK_E_RANGE_XOR_TABLE, 0x80, sizeof(HWK_E_RANGE_XOR_TABLE));
 		memset(STORAGE_BUFFER2, 0, sizeof(STORAGE_BUFFER2));
+		UpdateRegistryValues();
 		InstallHooks();
 	}
 
